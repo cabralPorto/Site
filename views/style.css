@@ -1,0 +1,19 @@
+.color{
+background-color: #2da148;
+}
+.ajust{
+    
+    margin-top: 25px;
+}
+.box {
+    -webkit-transform: translate(0, 0);
+    -webkit-transition: -webkit-transform -500ms;
+  
+    transform: translate(0, 0);
+    transition: transform 500ms;
+  }
+  
+  .box.move {
+    -webkit-transform: translate(100px, 100px);
+    transform: translate(100px, 100px);
+  }
