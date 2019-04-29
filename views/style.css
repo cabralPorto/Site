@@ -1,19 +1,98 @@
+
 .color{
-background-color: #2da148;
+background-color:#AEFF9E;
 }
 .ajust{
     
     margin-top: 25px;
 }
-.box {
-    -webkit-transform: translate(0, 0);
-    -webkit-transition: -webkit-transform -500ms;
+footer{
+  background-color:#AEFF9E;
+}
+a{
+  color:rgb(128, 7, 128);
+}
+.detalhes{
+ height:  300px;
+ margin-bottom: 0px;
   
-    transform: translate(0, 0);
-    transition: transform 500ms;
-  }
+}
+.margin-detalhes{
   
-  .box.move {
-    -webkit-transform: translate(100px, 100px);
-    transform: translate(100px, 100px);
+  height: 60px;
+  background-color:rgb(54, 54, 54);
+}
+.zoom{
+  overflow: hidden;
+}
+.zoom img{
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+
+}
+.zoom:hover img{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  
+}
+
+@keyframes neon{
+  from{
+    filter: drop-shadow(10px 10px 10px var(--cor-neon));
   }
+  to{
+    filter: drop-shadow(0 0 30px var (--cor-neon));
+  }
+}
+ 
+  .alvo{
+    color:rgb(54, 54, 54);
+      animation: neon 3s alternate infinite ease-in-out;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+.titulo{
+  --cor-neon: rgb(49, 194, 110);
+  }
+  .subtitulo{
+    --cor-neon:   rgb(49, 194, 110);
+  }
+  .redeSocial{
+   
+  }
+footer  ul {
+    position: absolute;
+    margin: 50px 0 0 50px;
+    
+}
+footer ul li {
+    float: left;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+ul li:last-child {
+    margin: 0;
+ 
+    
+}
+ul li img:first-child {
+    float: left;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    /* filter: greyscale(1.0); */
+}
+ul li:hover img:first-child {
+    margin: -32px 0 0;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
