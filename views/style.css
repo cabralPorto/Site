@@ -1,27 +1,39 @@
 
-.color{
-background-color:#AEFF9E;
+
+
+.header-site{
+  background-image: url(../views/img/fundo.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color:rgb(236, 223, 231);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
+/*Cor fundo barra de Menu*/
+.color{
+background-color:rgb(53, 155, 33);
+}
+/* Espaço entre menu e os cards*/
 .ajust{
     
     margin-top: 25px;
 }
+/*Cor de fundo Roda pé da pagina.*/
 footer{
-  background-color:#AEFF9E;
+  background-color:rgb(39, 32, 7);
 }
-a{
-  color:rgb(128, 7, 128);
+/*Margen entre Card e Roda pé*/
+.margin-detalhes{
+  height: px;
+  background-color:rgb(39, 32, 7);
 }
+/* medida do roda pé */
 .detalhes{
  height:  300px;
- margin-bottom: 0px;
-  
 }
-.margin-detalhes{
-  
-  height: 60px;
-  background-color:rgb(54, 54, 54);
-}
+/*Efeito ao passar o mouse sobre os Card*/
 .zoom{
   overflow: hidden;
 }
@@ -54,25 +66,67 @@ a{
       font-family: Arial, Helvetica, sans-serif;
   }
 .titulo{
-  --cor-neon: rgb(49, 194, 110);
+  --cor-neon: rgb(8, 70, 33);
   }
   .subtitulo{
-    --cor-neon:   rgb(49, 194, 110);
+    --cor-neon:   rgb(8, 70, 33);
+  }
+
+  /* Alinhamento componentes do roda pé*/
+  .alin{
+    display:inline-block;
+    padding-bottom:5px;
+  }
+
+  .contato   {
+    text-align:center;  
+    margin-top: 60px;
+    margin-bottom:15px;
+  }.endereco{
+    text-align:center;
+    margin-top: 60px;
+    
+    margin-bottom:15px;
+  }
+  
+  .social{
+    text-align:center;
+    margin-bottom:15px;
+    margin-top: 60px;
+  }
+  
+  ul.icones-redes-sociais  {
+    position:center;
+    padding-left:0px;	
+    border-bottom-style:sol 4px;
+    }
+    .colorEmail{
+      color:rgb(240, 240, 240);
+    
+    }
+  .detail{
+    text-align:center;
+    color:orange;
+    font-size:12px;
   }
   .redeSocial{
-   
+    text-align: right;
+    margin-top: 150px;
   }
+  /*Efeito Links redes Sociais*/
 footer  ul {
-    position: absolute;
-    margin: 50px 0 0 50px;
-    
+    position: relative;
+    margin: 0px 50px 50px 0px;
+    display:inline-block;
 }
 footer ul li {
     float: left;
     width: 32px;
     height: 32px;
     overflow: hidden;
-    margin-right: 20px;
+    margin-right:10px;
+    margin-left: 20px;
+    
 }
 ul li:last-child {
     margin: 0;
@@ -86,7 +140,7 @@ ul li img:first-child {
     -ms-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-    /* filter: greyscale(1.0); */
+    filter: greyscale(1.0); 
 }
 ul li:hover img:first-child {
     margin: -32px 0 0;
@@ -95,4 +149,21 @@ ul li:hover img:first-child {
     -ms-transform: rotate(135deg);
     -o-transform: rotate(135deg);
     transform: rotate(135deg);
+}
+
+.ajustPadding{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+
+#img-site{
+  background-image: url(img/footer.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 100px;
+  padding-bottom: 200px;
 }
