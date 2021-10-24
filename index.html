@@ -1,37 +1,41 @@
 <!doctype html>
 <html lang="pt-br">
-<!--TESTE VSCODE-->>
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
   <link rel="icon" type="imagem/png" href="views/img/lg.png" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="views/style.css">
   <link rel="stylesheet" href="views/normalize.css">
+  <link rel="stylesheet" href="views/animate.css">
   <title>Portifolio</title>
 </head>
 
 <body>
   <!--Banner inicial ------------------------------------------------------------------------------------->
-
+ 
+  
   <div class="container-fluid">
-    <div class="media">
-      <div class="media-body">
+      <div class="media">
+        <div class="media-body">
+            <div class="zoom">
+          
+          <img class="  ml-3 rounded-circle alvo titulo  " src="views/img/mcs2.jpg" width="100px" height="100px"
+            alt="Imagem de capa do card">
+           </div>
+          </div>
+        <!--Imagem--------------------------------------------------------------------------------------------->
         <h2 class="mt-0 mb-1 alvo titulo"></h2>
-        <img class="alvo titulo img-thumbnail" src="views/img/lg.png" width="200px" height="100px"
-          alt="Imagem de capa do card">
-      </div>
-      <!--Imagem--------------------------------------------------------------------------------------------->
-      <div class="zoom">
-        <img class=" ml-3 rounded-circle alvo titulo" src="views/img/mcs2.jpg" width="100px" height="100px"
-          alt="Imagem de exemplo genérica">
+          <img class="alvo titulo img-thumbnail " src="views/img/lg.png" width="200px" height="100px"
+            alt="Imagem de exemplo genérica">
+        </div>
       </div>
     </div>
-  </div>
   <!--Menu-------------------------------------------------------------------------------------------------->
   <div class="ajustePadding" class="container-fluid" >
     <nav class="navbar navbar-expand-lg navbar-light color">
@@ -57,7 +61,7 @@
       <div class="container-fluid">
           <div class="row">
               <div class="col-sm-4 col-md-4 col-lg-12">
-                  <h1 class="text-center">Bem Vindo</h1>
+                  <h1 class="text-center">  Bem Vindo! Conheça um pouco sobre minha carreira e projetos. </h1>
                   <h2 class="text-center"> </h2>
               </div>
           </div>
@@ -134,10 +138,10 @@
     <div class="container">
         <div class="row">
             <div class=" col-sm-4 col-md-4 col-lg-12 col ">
-                <h2 class="text-center colorEmail">Sou um apaixonado por conhecimento e busco sempre mais!  
-                    Não existe nada que não saibamos e que não possamos aprender!</h2>
-                    <cite class="colorEmail">"A vida me ensinou a nunca dexistir nem ganhar 
-                      nem perder mas procura evoluir"<br> Charlie Brown junior "Chorão"</cite>    
+                <p class="text-center colorEmail ">Sou um apaixonado por conhecimento e busco sempre mais! 
+                    Não existe nada que não saibamos e que não possamos aprender!</p>
+                    <cite >"A vida me ensinou a nunca dexistir nem ganhar 
+                      nem perder mas procurar evoluir"<br> Charlie Brown junior "Chorão"</cite>    
             </div>
         </div>
     </div>
@@ -166,10 +170,13 @@
             <div class=" col-sm-4 col-md-4">
                   <div class="contato">
                       <div class="alin">
-                          <img class ="rounded-circle" src="views/ico/icowhatZap.png">
+                          
+                        <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5513996932845" target="_blank">
+                         
+                        <img class ="rounded-circle" src="views/ico/icowhatZap.png"> </a>
                           </div>
                           <div class="alin">
-                    <h6 class="colorEmail"><strong>Fone:</strong> 013 996932845</h6>
+                    <h6 class="colorEmail"><strong>Fale Comigo</strong> </h6>
                           </div>
                   </div>
                   </div>
@@ -244,7 +251,7 @@
         <div class="modal-body">
           <ul>
             <li>
-              Autônomo Consultor Técnico em Informática.            </li>
+              Autônomo Consultor Técnico em Informática.</li>
             <li>
               Consultoria em tecnologia da informação.
             </li>
@@ -301,10 +308,12 @@
       </div>
     </div>
   </div>
-
+  
+    
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="views/js/escrita.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
